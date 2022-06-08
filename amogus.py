@@ -37,6 +37,11 @@ print(f'''
 {w}          {b}\\ \\{rr}_____{b}/ /{w}         {b}\\_______/{w}               
 {w}           {b}\\_______/{w}                                  
 {w}                                                      
-{c}''')
+{c}
+
+Traceback (most recent call last):
+  File "amogus.py", line 1, in <module>
+    print(sys.argv[0])
+NameError: name 'sys' is not defined. Did you mean: 'sus'?''')
 input()
 print(clear)
